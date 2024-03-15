@@ -1,0 +1,78 @@
+.app {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.issue-list {
+  list-style: none;
+  padding: 0;
+}
+
+.issue-item {
+  margin-bottom: 20px;
+  border: 3px solid #E6E9FE;
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.issue-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.issue-info h3 {
+  margin: 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-form,
+.create-form {
+  background-color: #E6E9FE;
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.update-button, .edit-button, .create-button  {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.cancel-button, .delete-button {
+  background-color: #f44336;
+  color: #fff;
+  margin-left: 1rem;
+}

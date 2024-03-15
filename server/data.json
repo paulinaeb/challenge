@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "title": "Implement user authentication",
+    "description": "As a user, I want to be able to log in to the system using my credentials"
+  },
+  {
+    "id": "2",
+    "title": "Create database schema",
+    "description": "Design and create the database schema for the application"
+  },
+  {
+    "id": "3",
+    "title": "Implement API endpoints",
+    "description": "Create the necessary API endpoints for the frontend to communicate with the backend"
+  },
+  {
+    "id": "4",
+    "title": "Add user registration feature",
+    "description": "Allow users to register for a new account on the system"
+  },
+  {
+    "id": "5",
+    "title": "Implement data validation",
+    "description": "Validate user input to ensure data integrity and prevent errors"
+  }
+]
